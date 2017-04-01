@@ -14,6 +14,11 @@
 		DAC80F471E8EFBA000D756C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC80F451E8EFBA000D756C1 /* LaunchScreen.storyboard */; };
 		DAC80F521E8EFBA000D756C1 /* DropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC80F511E8EFBA000D756C1 /* DropboxTests.swift */; };
 		DAC80F5D1E8EFBA000D756C1 /* DropboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC80F5C1E8EFBA000D756C1 /* DropboxUITests.swift */; };
+		DAC80F6B1E8FE6DC00D756C1 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC80F6A1E8FE6DC00D756C1 /* WelcomeViewController.swift */; };
+		DAC80F6D1E8FE8FC00D756C1 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC80F6C1E8FE8FC00D756C1 /* SignInViewController.swift */; };
+		DAC80F6F1E90202800D756C1 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC80F6E1E90202800D756C1 /* PhotosViewController.swift */; };
+		DAC80F711E90214500D756C1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC80F701E90214500D756C1 /* SettingsViewController.swift */; };
+		DAC80F731E90225F00D756C1 /* SignInTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC80F721E90225F00D756C1 /* SignInTwoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		DAC80F581E8EFBA000D756C1 /* DropboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC80F5C1E8EFBA000D756C1 /* DropboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxUITests.swift; sourceTree = "<group>"; };
 		DAC80F5E1E8EFBA000D756C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC80F6A1E8FE6DC00D756C1 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		DAC80F6C1E8FE8FC00D756C1 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		DAC80F6E1E90202800D756C1 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		DAC80F701E90214500D756C1 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = Dropbox/SettingsViewController.swift; sourceTree = "<group>"; };
+		DAC80F721E90225F00D756C1 /* SignInTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInTwoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,7 @@
 		DAC80F301E8EFBA000D756C1 = {
 			isa = PBXGroup;
 			children = (
+				DAC80F701E90214500D756C1 /* SettingsViewController.swift */,
 				DAC80F3B1E8EFBA000D756C1 /* Dropbox */,
 				DAC80F501E8EFBA000D756C1 /* DropboxTests */,
 				DAC80F5B1E8EFBA000D756C1 /* DropboxUITests */,
@@ -100,6 +111,10 @@
 				DAC80F3C1E8EFBA000D756C1 /* AppDelegate.swift */,
 				DAC80F3E1E8EFBA000D756C1 /* ViewController.swift */,
 				DAC80F401E8EFBA000D756C1 /* Main.storyboard */,
+				DAC80F721E90225F00D756C1 /* SignInTwoViewController.swift */,
+				DAC80F6E1E90202800D756C1 /* PhotosViewController.swift */,
+				DAC80F6C1E8FE8FC00D756C1 /* SignInViewController.swift */,
+				DAC80F6A1E8FE6DC00D756C1 /* WelcomeViewController.swift */,
 				DAC80F431E8EFBA000D756C1 /* Assets.xcassets */,
 				DAC80F451E8EFBA000D756C1 /* LaunchScreen.storyboard */,
 				DAC80F481E8EFBA000D756C1 /* Info.plist */,
@@ -262,8 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAC80F731E90225F00D756C1 /* SignInTwoViewController.swift in Sources */,
+				DAC80F6D1E8FE8FC00D756C1 /* SignInViewController.swift in Sources */,
+				DAC80F6B1E8FE6DC00D756C1 /* WelcomeViewController.swift in Sources */,
 				DAC80F3F1E8EFBA000D756C1 /* ViewController.swift in Sources */,
 				DAC80F3D1E8EFBA000D756C1 /* AppDelegate.swift in Sources */,
+				DAC80F6F1E90202800D756C1 /* PhotosViewController.swift in Sources */,
+				DAC80F711E90214500D756C1 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +443,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.studiomile.Dropbox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -436,6 +457,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.studiomile.Dropbox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
